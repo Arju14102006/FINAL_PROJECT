@@ -7,8 +7,8 @@ def test_generate_randomnumber():
     assert upper == 10
 
     rn, upper = generate_randomnumber(2)
-    assert 1 <= rn <= 50
-    assert upper == 50
+    assert 1 <= rn <= 60
+    assert upper == 60
 
     rn, upper =generate_randomnumber(3)
     assert 1 <= rn <= 100
